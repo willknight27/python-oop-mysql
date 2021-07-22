@@ -15,5 +15,5 @@ class Producto:
         return self.valor + self.getIVA()
     
     def __str__(self):
-        pass
+        return f"nombre: {self.nombre}\nCategoria: {self.categoria}\nValor: {self.valor}\nStock: {self.stock}\nTotal: {self.getTotal()}"
     

@@ -67,7 +67,7 @@ def ver_producto():
     producto = productoService.obtenerProductos()
 
     for i in producto:
-        print("Nombre:",i.nombre) 
+        print(i)
 
 while menu():
     pass
