@@ -15,8 +15,7 @@ Ejecutar en terminal para crear motor de base de datos con Docker
 docker run -d --name=LocalMySQLDB -p 3307:3306 -e MYSQL_ROOT_PASSWORD=password mysql
 ```
 
-Ejecutar en terminal para la instalación de mysql-connector-pyhton
-
+Ejecutar en terminal para la instalación de mysql-connector-python
 ```
 python -m pip install mysql-connector-python
 ```
