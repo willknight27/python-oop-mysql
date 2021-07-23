@@ -1,5 +1,5 @@
 from producto import Producto
-from servicios.servicio_producto import ProductoService
+from servicio_producto import ProductoService
 
 productoService = ProductoService()
 
@@ -67,6 +67,7 @@ def ver_producto():
     producto = productoService.obtenerProductos()
 
     for i in producto:
+        print("=="*10)
         print(i)
 
 while menu():
